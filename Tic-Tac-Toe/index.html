@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tic-Tac-Toe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Rubik|VT323" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <div class="overlay">
+        <div class="overlay-content">
+            <h2></h2>
+            <button>START GAME?</button>
+        </div>
+    </div>
+    <table class="board">
+        <tr class="row">
+            <td class="cell" id="cell_0" onclick="userClick(0)">
+                <div></div>
+            </td>
+            <td class="cell" id="cell_1" onclick="userClick(1)">
+                <div></div>
+            </td>
+            <td class="cell" id="cell_2" onclick="userClick(2)">
+                <div></div>
+            </td>
+        </tr>
+        <tr class="row">
+            <td class="cell" id="cell_3" onclick="userClick(3)">
+                <div></div>
+            </td>
+            <td class="cell" id="cell_4" onclick="userClick(4)">
+                <div></div>
+            </td>
+            <td class="cell" id="cell_5" onclick="userClick(5)">
+                <div></div>
+            </td>
+        </tr>
+        <tr class="row">
+            <td class="cell" id="cell_6" onclick="userClick(6)">
+                <div></div>
+            </td>
+            <td class="cell" id="cell_7" onclick="userClick(7)">
+                <div></div>
+            </td>
+            <td class="cell" id="cell_8" onclick="userClick(8)">
+                <div></div>
+            </td>
+        </tr>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
